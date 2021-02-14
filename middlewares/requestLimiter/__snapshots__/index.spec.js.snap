@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`articleProvider middleware should call next by default: provider.set 1`] = `
+Array [
+  Array [
+    "127.0.0.1",
+    1,
+  ],
+]
+`;
+
+exports[`articleProvider middleware should call next by default: response headers 1`] = `
+Object {
+  "x-current-count": 1,
+}
+`;
+
+exports[`articleProvider middleware should not allow 4th request: provider.set 1`] = `
+Array [
+  Array [
+    "127.0.0.1",
+    4,
+  ],
+]
+`;
+
+exports[`articleProvider middleware should not allow 4th request: response headers 1`] = `
+Object {
+  "x-current-count": 4,
+}
+`;

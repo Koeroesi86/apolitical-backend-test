@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`articleStorage should fetch articles: request 1`] = `
+Request {
+  "config": Object {
+    "adapter": [Function],
+    "data": undefined,
+    "headers": Object {
+      "Accept": "application/json, text/plain, */*",
+    },
+    "maxBodyLength": -1,
+    "maxContentLength": -1,
+    "method": "get",
+    "timeout": 0,
+    "transformRequest": Array [
+      [Function],
+    ],
+    "transformResponse": Array [
+      [Function],
+    ],
+    "url": "http://asdfast.beobit.net/api/",
+    "validateStatus": [Function],
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+  },
+  "headers": Object {
+    "Accept": "application/json, text/plain, */*",
+  },
+  "reject": [Function],
+  "resolve": [Function],
+  "responseType": undefined,
+  "timeout": 0,
+  "url": "http://asdfast.beobit.net/api/",
+  "withCredentials": false,
+}
+`;
+
+exports[`articleStorage should fetch articles: result 1`] = `"Lorem ipsum"`;

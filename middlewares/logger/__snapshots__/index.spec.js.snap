@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`loggerMiddleware middleware should call logger.log 1`] = `
+Array [
+  Array [
+    Object {
+      "count": 0,
+      "duration": 0,
+      "level": "info",
+      "message": "Response sent",
+      "method": "GET",
+      "status": 200,
+    },
+  ],
+]
+`;

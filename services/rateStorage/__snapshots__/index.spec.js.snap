@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`rateStorage should get default value 1`] = `0`;
+
+exports[`rateStorage should retrieve set value 1`] = `100`;
+
+exports[`rateStorage should set value 1`] = `
+Object {
+  "127.0.0.1": 100,
+}
+`;
